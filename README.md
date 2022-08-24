@@ -22,9 +22,9 @@
 >> PUSHDEER_TOKEN   
 >> DINGTALK_SECRET   
 >> DINGTALK_TOKEN   
-
+      
 ### 3. 通知推送（可选）
-1. 目前只支持 PushDeer 和 Dingtalk 推送，其它平台可参考 [notify.php](notify.php) 文件自行添加。
+   1. 目前只支持 PushDeer 和 Dingtalk 推送，其它平台可参考 [notify.php](notify.php) 文件自行添加。
 > 需要在 `.github/workflows/check-in.yml` 添加相应的 `Pusher Token` 环境变量。
 
 ### 4. 其它
